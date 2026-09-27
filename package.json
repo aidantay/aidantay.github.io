@@ -1,0 +1,33 @@
+{
+  "name": "aidantay.github.io",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aidantay/aidantay.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aidantay/aidantay.github.io/issues"
+  },
+  "homepage": "https://github.com/aidantay/aidantay.github.io#readme",
+  "dependencies": {
+    "@astrojs/starlight": "^0.42.4",
+    "astro": "^7.2.10",
+    "sharp": "^0.35.3"
+  },
+  "allowScripts": {
+    "esbuild": true
+  }
+}
