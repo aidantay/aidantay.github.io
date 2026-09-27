@@ -7,12 +7,17 @@ export default defineConfig({
   site: "https://aidantay.github.io",
   integrations: [
     starlight({
-      title: "My Docs",
+      title: "Dr. Aidan P. Tay",
       social: [
         {
           icon: "github",
           label: "GitHub",
-          href: "https://github.com/withastro/starlight",
+          href: "https://github.com/aidantay",
+        },
+        {
+          icon: "open-book",
+          label: "Google Scholar",
+          href: "https://scholar.google.com/citations?user=ij2lpE8AAAAJ&hl=en",
         },
       ],
       sidebar: [
